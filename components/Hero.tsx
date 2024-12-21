@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from "@/components/ui/button"
-import { useState, useRef } from "react"
+import { useState } from "react"
 import { Maximize2 } from "lucide-react"
 
 type Version = '1' | '2' | '3'
@@ -68,7 +68,7 @@ export default function Hero() {
               </iframe>
               <Button
                 onClick={(e) => {
-                  const iframe = e.currentTarget.parentElement?.querySelector('iframe');
+                  const iframe = e.currentTarget.parentElement?.querySelector('iframe') as HTMLIFrameElement | null;
                   toggleFullscreen(iframe);
                 }}
                 className="absolute bottom-6 right-6 bg-black/50 hover:bg-black/70 text-white px-4 py-2 rounded-lg flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity duration-200"

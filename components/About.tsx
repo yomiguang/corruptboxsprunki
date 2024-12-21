@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import Image from 'next/image'
 
 export default function About() {
   return (
@@ -17,7 +16,7 @@ export default function About() {
                   Born from the fusion of horror aesthetics and experimental music, Corruptbox began as a daring concept: What if glitch art could create music? This simple question evolved into a revolutionary gaming experience that has captured the imagination of players worldwide.
                 </p>
                 <p className="text-gray-300 mb-4">
-                  Each iteration of Corruptbox has pushed the boundaries of what's possible in horror music gaming, introducing new ways to experience the intersection of visual corruption and sound design. From the original Corruptbox But Sprunki to the latest Corruptbox 3 x Sprunki, our platform continues to evolve and inspire.
+                  Each iteration of Corruptbox has pushed the boundaries of what&apos;s possible in horror music gaming, introducing new ways to experience the intersection of visual corruption and sound design. From the original Corruptbox But Sprunki to the latest Corruptbox 3 x Sprunki, our platform continues to evolve and inspire.
                 </p>
                 <p className="text-gray-300">
                 Experience the unique blend of visual corruption and sound design in Corruptbox. Create atmospheric horror soundtracks, discover hidden audio effects, and share your creations with a growing community of artists and horror enthusiasts.
